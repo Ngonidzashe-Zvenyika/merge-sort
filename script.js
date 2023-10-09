@@ -1,3 +1,5 @@
+const test = [9, 85, 7, 32, 5, 15, 3, 2, 1];
+
 function mergeSort(arr) {
   if (arr.length <= 1) {
     return arr;
@@ -23,3 +25,5 @@ function mergeSort(arr) {
     return mergeArray;
   }
 }
+
+console.log(mergeSort(test)); // [1, 2, 3, 5, 7, 9, 15, 32, 85];
